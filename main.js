@@ -1,6 +1,8 @@
 const menuBtn = document.querySelector(".menu-btn");
 const navbar = document.querySelector(".navbar");
 
+alert("Eslatma:Shunga o'xshash sayt kerak bo'lsa yozishingiz mumkin")
+
 menuBtn.addEventListener("click", () => {
     const isOpen = navbar.classList.toggle("show");
     menuBtn.setAttribute("aria-expanded", isOpen);
